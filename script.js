@@ -1,5 +1,3 @@
-const { useCallback } = require("react");
-
 function fetchUserProfile(userId) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
